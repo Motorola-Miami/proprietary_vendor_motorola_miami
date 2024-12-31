@@ -182,13 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/miami/proprietary/vendor/firmware/csot_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_cfg_group.bin \
     vendor/motorola/miami/proprietary/vendor/firmware/csot_goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_test_limits_255.csv \
     vendor/motorola/miami/proprietary/vendor/firmware/goodix-csot-gt9916S-23021401-63ec5983-miami.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-csot-gt9916S-23021401-63ec5983-miami.bin \
-    vendor/motorola/miami/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
-    vendor/motorola/miami/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
-    vendor/motorola/miami/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
-    vendor/motorola/miami/proprietary/vendor/firmware/ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b03 \
-    vendor/motorola/miami/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
-    vendor/motorola/miami/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
-    vendor/motorola/miami/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/motorola/miami/proprietary/vendor/firmware/mm8013c_fw.hex:$(TARGET_COPY_OUT_VENDOR)/firmware/mm8013c_fw.hex \
     vendor/motorola/miami/proprietary/vendor/firmware/mm8013c_parameter_0102.hex:$(TARGET_COPY_OUT_VENDOR)/firmware/mm8013c_parameter_0102.hex \
     vendor/motorola/miami/proprietary/vendor/firmware/mm8013c_parameter_0103.hex:$(TARGET_COPY_OUT_VENDOR)/firmware/mm8013c_parameter_0103.hex \
