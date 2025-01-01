@@ -163,8 +163,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/miami/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/motorola/miami/proprietary/vendor/etc/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
     vendor/motorola/miami/proprietary/vendor/etc/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml \
-    vendor/motorola/miami/proprietary/vendor/etc/thermal-engine-miami.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-miami.conf \
-    vendor/motorola/miami/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/motorola/miami/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
     vendor/motorola/miami/proprietary/vendor/firmware/aw8622x_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_haptic.bin \
     vendor/motorola/miami/proprietary/vendor/firmware/aw8622x_osc_rtp_12K_10s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_osc_rtp_12K_10s.bin \
