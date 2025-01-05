@@ -188,7 +188,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libpn557_fw.so"],
 			shared_libs: [ ],
 		},
@@ -2960,6 +2960,7 @@ android_app_import {
 		enabled: false,
 	},
 	privileged: true,
+	overrides: ["Aperture"],
 	product_specific: true,
 }
 
