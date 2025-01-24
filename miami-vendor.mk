@@ -346,7 +346,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_mfnr_t4 \
     libmmcamera_pdpc \
     libmot_afd \
-    libmotohid \
     libmpbase \
     libofflinedump \
     libofflinelog \
