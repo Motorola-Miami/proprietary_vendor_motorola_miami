@@ -378,6 +378,10 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     MotCamera4 \
+    MotoSignatureApp \
+    com.motorola.motosignature \
+    moto-core_services \
+    moto-settings \
     MotorolaSettingsProvider \
     com.android.hotwordenrollment.common.util \
     android.hardware.biometrics.fingerprint@2.1-service-ets \
