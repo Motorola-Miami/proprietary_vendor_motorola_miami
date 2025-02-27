@@ -216,9 +216,9 @@ PRODUCT_PACKAGES += \
     libarcsoft_distortion_correction \
     libarcsoft_portrait_distortion_correction \
     libarcsoft_super_night_raw \
-    libbluetooth_audio_session_qti_2_1 \
     libcamxexternalformatutils \
     libmotoisdataqueue \
+    libmpbase \
     libpn557_fw \
     com.mot.eeprom.mot_gt24p128e_s5kgw3_eeprom \
     com.mot.eeprom.mot_gt24p64e_hi1336_eeprom \
@@ -346,7 +346,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_mfnr_t4 \
     libmmcamera_pdpc \
     libmot_afd \
-    libmpbase \
     libofflinedump \
     libofflinelog \
     libopencv \
@@ -374,15 +373,15 @@ PRODUCT_PACKAGES += \
     vendor.egistec.hardware.fingerprint@4.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.fingerprint@1.0 \
+    MotoSignatureApp \
     MotCamera3AI \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     MotCamera4 \
-    MotoSignatureApp \
+    MotorolaSettingsProvider \
     com.motorola.motosignature \
     moto-core_services \
     moto-settings \
-    MotorolaSettingsProvider \
     com.android.hotwordenrollment.common.util \
     android.hardware.biometrics.fingerprint@2.1-service-ets \
     motsettings
