@@ -6,14 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/miami
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/miami/proprietary/product/etc/permissions/com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.xml \
-    vendor/motorola/miami/proprietary/product/etc/permissions/com.motorola.moto-uirefresh.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.moto-uirefresh.xml \
-    vendor/motorola/miami/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml \
-    vendor/motorola/miami/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera3.xml \
-    vendor/motorola/miami/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml \
-    vendor/motorola/miami/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
-    vendor/motorola/miami/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
-    vendor/motorola/miami/proprietary/system/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
     vendor/motorola/miami/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/miami/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/miami/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
@@ -47,10 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/miami/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
     vendor/motorola/miami/proprietary/vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100_38_4MHZ.conf \
     vendor/motorola/miami/proprietary/vendor/etc/nfc_calibration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nfc_calibration.txt \
-    vendor/motorola/miami/proprietary/vendor/etc/permissions/com.motorola.camera3.content.ai.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.content.ai.xml \
-    vendor/motorola/miami/proprietary/vendor/etc/permissions/com.motorola.camera3.lens.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.lens.xml \
-    vendor/motorola/miami/proprietary/vendor/etc/permissions/com.motorola.camera3.miami.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.miami.xml \
-    vendor/motorola/miami/proprietary/vendor/etc/permissions/com.motorola.camera3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.xml \
     vendor/motorola/miami/proprietary/vendor/etc/pwr/PowerFeatureConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PowerFeatureConfig.xml \
     vendor/motorola/miami/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
     vendor/motorola/miami/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_628.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_628.xml \
@@ -213,12 +201,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libRbsFlow \
     libacdbloader \
-    libarcsoft_distortion_correction \
-    libarcsoft_portrait_distortion_correction \
-    libarcsoft_super_night_raw \
     libcamxexternalformatutils \
     libmotoisdataqueue \
-    libmpbase \
     libpn557_fw \
     com.mot.eeprom.mot_gt24p128e_s5kgw3_eeprom \
     com.mot.eeprom.mot_gt24p64e_hi1336_eeprom \
@@ -313,7 +297,10 @@ PRODUCT_PACKAGES += \
     libaidenoiser \
     libaidenoiserv2 \
     libarcsoft_chi_utils \
+    libarcsoft_distortion_correction \
     libarcsoft_low_light_shot \
+    libarcsoft_portrait_distortion_correction \
+    libarcsoft_super_night_raw \
     libbitmlengine \
     libbitmlenginev2 \
     libcamera_nn_stub \
@@ -346,12 +333,13 @@ PRODUCT_PACKAGES += \
     libmmcamera_mfnr_t4 \
     libmmcamera_pdpc \
     libmot_afd \
+    libmpbase \
+    liboemcrypto \
     libofflinedump \
     libofflinelog \
     libopencv \
     libopestriping \
     libos \
-    libpowercore \
     libqll10 \
     libqllengine \
     libremosaic_wrapper \
@@ -359,7 +347,6 @@ PRODUCT_PACKAGES += \
     libsynx \
     libtfestriping \
     libthreadutils \
-    libvideooptfeature \
     libvidhance \
     libvidhance_active_ois \
     libvidhance_dmbr \
@@ -373,15 +360,7 @@ PRODUCT_PACKAGES += \
     vendor.egistec.hardware.fingerprint@4.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.fingerprint@1.0 \
-    MotoSignatureApp \
-    MotCamera3AI \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
-    MotCamera4 \
-    MotorolaSettingsProvider \
-    com.motorola.motosignature \
-    moto-core_services \
-    moto-settings \
     com.android.hotwordenrollment.common.util \
-    android.hardware.biometrics.fingerprint@2.1-service-ets \
-    motsettings
+    android.hardware.biometrics.fingerprint@2.1-service-ets
