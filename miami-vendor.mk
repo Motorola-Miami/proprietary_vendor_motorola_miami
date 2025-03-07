@@ -346,7 +346,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_pdpc \
     libmot_afd \
     libmpbase \
-    liboemcrypto \
     libofflinedump \
     libofflinelog \
     libopencv \
